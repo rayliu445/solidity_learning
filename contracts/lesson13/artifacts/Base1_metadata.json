@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lesson13/ModiferInheritance.sol": "Base1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lesson13/ModiferInheritance.sol": {
+			"keccak256": "0x66f5fe09569081d71e56d7f8f5af4bb5be8b215fbab009964ab1bff8b698d70f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d068d9ca479a97aab5081b29bc17d3fe9ada77988f8c1c9c32d9be66773ebdf",
+				"dweb:/ipfs/QmW5xhjbUa5toGvTG6oNWGufLe1LeEwFwMDrfPdxs3BHid"
+			]
+		}
+	},
+	"version": 1
+}

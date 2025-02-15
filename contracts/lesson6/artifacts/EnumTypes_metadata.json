@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "enumToUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lesson6/Array.sol": "EnumTypes"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lesson6/Array.sol": {
+			"keccak256": "0x73d713695993fefc19091e9843633ee84fb01795fc8b2268daa7618459166496",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b1ac6a19c11de5ae271a9a42b7cf3787cb7b55ca48da064cebe90ab02ba8e58e",
+				"dweb:/ipfs/QmWzSTF587kX3gcUVm429KPQDWy1yJjK4h117bEmsZCiEP"
+			]
+		}
+	},
+	"version": 1
+}
