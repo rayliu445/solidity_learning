@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "demo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addr",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "balance",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "value",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DeployContract.DemoResult",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lesson26/DeployeContract.sol": "DeployContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lesson26/DeleteContract.sol": {
+			"keccak256": "0x52053f2153969d1c1ce022694392d5def9961c7676378c316ca57774646dd54f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5f02abd960a77f131b3e03842f0c57afaaa48c83b3c20dd76fc0d0214861291",
+				"dweb:/ipfs/QmWD3mvFk4KNCFhEr8PtaU95bqc9TCyBU8tuTUwpVsUpcE"
+			]
+		},
+		"contracts/lesson26/DeployeContract.sol": {
+			"keccak256": "0x7dfa38b327ec7211e4c9f91bb808170d6f8d0fc098d9849507f0d5b17f9b537b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cbc8a4ed04f5a1a2f50edde24f89dbbfc7cef328de49dcd30bb36b6ad283e273",
+				"dweb:/ipfs/Qmbt23FGKUW7YmVqaMxdm44QbPeB2dgUfQxJAHVTM225t2"
+			]
+		}
+	},
+	"version": 1
+}
